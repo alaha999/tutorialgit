@@ -71,7 +71,7 @@ or
 >> git show HEAD~1 myscript_arnab/matplotlib_basic.py
 ```
 
-
+Chits : Well hope I am doing this right!
 
 
 
