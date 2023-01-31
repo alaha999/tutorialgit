@@ -34,6 +34,7 @@ you should see one readme.md file.
 3. Make changes in the Readme file and also add some scripts of your taste.
 Now how can we check what is changed or tracked by the git?
 
+
 ```
 >> git status
 ```
@@ -74,6 +75,7 @@ I am Parijat! Hello!
 
 Hi My name is Soumya. Checking for Git Developement
 
+Sourabh_edited_this
 
 I am Aparna Jayaraj
 
