@@ -1,4 +1,5 @@
-#import a few packages
+# import a few packages
+# Prachu's contribution
 
 import numpy as np
 import matplotlib as mpl
@@ -6,8 +7,8 @@ import matplotlib.pyplot as plt
 
 
 # Generate two normal distribution
-dist1=np.random.normal(0.1,0.6,10000)
-dist2=np.random.normal(0.9,0.9,10000)
+dist1=np.random.normal(0.1,0.6,11000)
+dist2=np.random.normal(0.9,0.5,15000)
 
 fig, ax = plt.subplots()
 ax.hist(dist1, bins=50, lw=2, alpha=0.5,label='dist1')
@@ -18,12 +19,3 @@ ax.legend(loc=0)
 ax.set_title('Matplotlib basic Normal Scale')
 plt.show()
 plt.savefig('guassian.png')
-
-
-
-
-
-
-
-
-
