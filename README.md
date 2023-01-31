@@ -34,6 +34,7 @@ you should see one readme.md file.
 3. Make changes in the Readme file and also add some scripts of your taste.
 Now how can we check what is changed or tracked by the git?
 
+
 ```
 >> git status
 ```
@@ -70,9 +71,17 @@ To check the difference in any file with some git commits that you did yesterday
 or
 >> git show HEAD~1 myscript_arnab/matplotlib_basic.py
 ```
+I am Parijat! Hello!
 
 "Hello World!"
+Chits : Well hope I am doing this right!
+Hi My name is Soumya. Checking for Git Developement
+
+Sourabh_edited_this
+
+I am Aparna Jayaraj
+
+Hi My name is Yash
 
 
-
-
+Hello!, Pranit here.
