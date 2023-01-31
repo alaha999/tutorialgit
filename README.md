@@ -71,8 +71,12 @@ or
 >> git show HEAD~1 myscript_arnab/matplotlib_basic.py
 ```
 
+Hi My name is Soumya. Checking for Git Developement
 
 
 I am Aparna Jayaraj
 
+Hi My name is Yash
 
+
+Hello!, Pranit here.
