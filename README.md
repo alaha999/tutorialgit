@@ -85,4 +85,11 @@ I am Aparna Jayaraj
 Hi My name is Yash
 
 
+<<<<<<< HEAD
+My name is Riya. :)
+
+
+
+=======
 Hello!, Pranit here.
+>>>>>>> 0e294b626888536066288217b3c0e2a17a871329
