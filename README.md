@@ -21,7 +21,7 @@ We will learn some basic usage of git in this ultra short tutorial.
 >> 3 touch myfile.txt
 >> 4 git status
 >> 5 git add *
->> 6 git git commit -m "added my file"
+>> 6 git commit -m "added my file"
 >> 7 git push origin <your branch>
 >> 8 **Make a pull request and follow up**
 
@@ -63,31 +63,35 @@ If you are setting up git for the first time checkout these commands to set up.
 ```
 
 3. Make changes in the Readme file and also add some scripts of your taste.
+```
+>> touch myfile.txt
+>> touch myfavpythoncode.py
+```
 Now how can we check what is changed or tracked by the git?
 
 
 ```
 >> git status
 ```
-to add all the new files in git tracking,
+4. to add all the new files in git tracking,
 
 ```
 >> git add *
 ```
 
-to commit when you are satisfied with your contribution,
+5. to commit when you are satisfied with your contribution,
 
 ```
 >> git commit -m "my first contribution" 
 ```
 
-Now you have to let others know that you are contributing by pushing you changes to master repo.
+6. Now you have to let others know that you are contributing by pushing you changes to master repo.
 
 ```
 >> git push origin dev_arnab
 ```
 
-** At this point you've only made changes in to your branch. You have to request the leader of the project to review your contribution and then merge your work in master node and being impactful in the project.**
+**At this point you've only made changes in to your branch. You have to request the leader of the project to review your contribution and then merge your work in master node and being impactful in the project.**
 
 
 To check your commit history,
@@ -102,7 +106,7 @@ To check the difference in any file with some git commits that you did yesterday
 or
 >> git show HEAD~1 myscript_arnab/matplotlib_basic.py
 ```
-
+Here ```HEAD~1``` means (HEAD-1)th commit.
 
 ```
 There are many advanced usage like cherrypick or git merge topic etc. Please follow the links provided in the resources to learn about them.
