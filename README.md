@@ -5,18 +5,49 @@ We will learn some basic usage of git in this ultra short tutorial.
 - Git is independent of Github.
 - But today we will learn how to use git in collab with github to work with many people working on the same project.
 
+**Resources:**
+- https://hsf-training.github.io/analysis-essentials/git/README.html
+- https://www.atlassian.com/git/tutorials/setting-up-a-repository
+- https://www.w3schools.com/git/
+
+## Workflow Summary
+(non-fork version)
+
+*For the first time*
+```
+
+>> 1 git clone <project url>
+>> 2 git checkout -b <your branch>
+>> 3 touch myfile.txt
+>> 4 git status
+>> 5 git add *
+>> 6 git git commit -m "added my file"
+>> 7 git push origin <your branch>
+>> 8 **Make a pull request and follow up**
+
+```
+*Next time, you should do,*
+```
+>> git pull origin main ( to pull the latest changes from main repo)
+>> follow 3-8
+```
+
 ### Procedure
----
+<hr>
+
 1. Open your github account and open the link https://github.com/alaha999/tutorialgit<br>
 you should see the repo tutorial git. Our job is now to clone this folder in to our local computer to edit, add scripts etc.
 ```
 >> mkdir myproject
+>> cd myproject
 >> git clone https://github.com/alaha999/tutorialgit.git
 >> ls
 ```
 you should see one readme.md file.
 
 **SOME BASIC COMMAND**
+
+If you are setting up git for the first time checkout these commands to set up.
 
 ```
 >> which git
@@ -71,33 +102,12 @@ To check the difference in any file with some git commits that you did yesterday
 or
 >> git show HEAD~1 myscript_arnab/matplotlib_basic.py
 ```
-I am Parijat! Hello!
-
-"Hello World!"
-Chits : Well hope I am doing this right!
-Hi My name is Soumya. Checking for Git Developement
-
-My name is Riya. :)
-Sourabh_edited_this
-
-I am Aparna Jayaraj
-
-Hi My name is Yash
 
 
-Hello!, Pranit here.
+```
+There are many advanced usage like cherrypick or git merge topic etc. Please follow the links provided in the resources to learn about them.
+You can add instructions of those utilities in this README file and submit a pull request to improve the documentation.
+```
 
 
-
-dajhduigfdf
-fodhvidgiudg
-fadjhhagdfuigadfgfuiasg
-fjadihvudagfghaf
-diagchadgfiugad
-dfadhyadfiuae
-My name is Riya. :)
-
-
-
-Hello!, Pranit here.
 
